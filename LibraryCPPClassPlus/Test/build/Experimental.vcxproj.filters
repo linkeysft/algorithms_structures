@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Linkey\LibraryCPPClassPlus\Test\build\CMakeFiles\991218052ce7624a053b10b79d1d7b25\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Linkey\LibraryCPPClassPlus\Test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Linkey\LibraryCPPClassPlus\Test\build\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CDF50C70-83D6-3E5C-B43B-4EF8D9DD252D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

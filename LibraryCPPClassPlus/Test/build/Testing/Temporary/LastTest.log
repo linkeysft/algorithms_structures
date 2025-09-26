@@ -1,0 +1,18 @@
+Start testing: Sep 26 14:46 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/1 Testing: TestArrayCPPClass
+1/1 Test: TestArrayCPPClass
+Command: "C:/Linkey/LibraryCPPClassPlus/Test/build/Release/TestArrayCPPClass.exe"
+Directory: C:/Linkey/LibraryCPPClassPlus/Test/build
+"TestArrayCPPClass" start time: Sep 26 14:46 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"TestArrayCPPClass" end time: Sep 26 14:46 RTZ 2 (çèìà)
+"TestArrayCPPClass" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 26 14:46 RTZ 2 (çèìà)
