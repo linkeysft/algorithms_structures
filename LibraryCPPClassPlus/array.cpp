@@ -15,11 +15,16 @@ Array::Array(size_t size)
 Array::Array(const Array& a)
 {
     if (a.size() > 0) {
-        adata = new Data[a.size()];
+        Data* newData = nullptr;
         size_t asz = a.size();
-        for (size_t i = 0; i < asz; i++) {
-            set(i, a.get(i));
+        if (asz > 0) {
+            newData = new Data[asz];
+            for (size_t i = 0; i < asz; ++i) {
+                newData[i] = a.get(i);
+            }
         }
+        adata = newData;
+        asize = asz;
     }
     else {
         adata = nullptr;

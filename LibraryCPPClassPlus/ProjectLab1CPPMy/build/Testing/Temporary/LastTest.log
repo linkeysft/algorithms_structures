@@ -1,10 +1,10 @@
-Start testing: Sep 26 11:53 RTZ 2 (çèìà)
+Start testing: Sep 26 14:31 RTZ 2 (çèìà)
 ----------------------------------------------------------
 1/1 Testing: TestLab1CPP
 1/1 Test: TestLab1CPP
 Command: "C:/Linkey/LibraryCPPClassPlus/ProjectLab1CPPMy/build/Release/lab1cpp.exe" "C:/Linkey/LibraryCPPClassPlus/ProjectLab1CPPMy/input.txt"
 Directory: C:/Linkey/LibraryCPPClassPlus/ProjectLab1CPPMy/build
-"TestLab1CPP" start time: Sep 26 11:53 RTZ 2 (çèìà)
+"TestLab1CPP" start time: Sep 26 14:31 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 12 5 8 20 12 7 ; 12 4
@@ -13,8 +13,8 @@ Test time =   0.03 sec
 ----------------------------------------------------------
 Test Pass Reason:
 Required regular expression found. Regex=[12 5 8 20 12 7 ]
-"TestLab1CPP" end time: Sep 26 11:53 RTZ 2 (çèìà)
+"TestLab1CPP" end time: Sep 26 14:31 RTZ 2 (çèìà)
 "TestLab1CPP" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 26 11:53 RTZ 2 (çèìà)
+End testing: Sep 26 14:31 RTZ 2 (çèìà)
