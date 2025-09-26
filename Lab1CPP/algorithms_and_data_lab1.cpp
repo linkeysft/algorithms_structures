@@ -43,6 +43,13 @@ Data f2(const Array& prarr) {
 	}
 	return mdiff;
 }
+void printarr(const Array& prarr) {
+	size_t asize = prarr.size();
+	for (size_t i = 0; i < asize; i++) {
+		cout << prarr.get(i) << " ";
+	}
+}
+
 
 int main(int argc, char* argv[])
 {
@@ -59,13 +66,11 @@ int main(int argc, char* argv[])
 				in >> n;
 				arr.set(i, n);
 			}
-			for (size_t i = 0; i < asize1; i++) {
-				cout << arr.get(i) << " ";
-			}
-			cout << "; ";
+			printarr(arr);
+
 			Data res1 = f1(arr);
 			Data res2 = f2(arr);
-			cout << res1 << " " << res2 << endl;
+			cout << "; " << res1 << " " << res2 << endl;
 		}
 		in.close();
 	}

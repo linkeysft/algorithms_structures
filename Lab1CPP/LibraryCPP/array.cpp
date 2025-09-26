@@ -2,8 +2,14 @@
 
 Array::Array(size_t size)
 {
-    asize = size;
-    adata = new Data[size];
+	if (size > 0) {
+		asize = size;
+		adata = new Data[size];
+	}
+	else {
+		adata = nullptr;
+		asize = 0;
+	}
 }
 
 Array::Array(const Array& a)
@@ -23,22 +29,48 @@ Array::Array(const Array& a)
 
 Array& Array::operator=(const Array& a)
 {
+    if (this != &a) { // защита от самоприсваивания
+        // создаем временный массив
+        Data* newData = nullptr;
+        if (a.asize > 0) {
+            newData = new Data[a.asize];
+            for (size_t i = 0; i < a.asize; ++i) {
+                newData[i] = a.adata[i];
+            }
+        }
+
+        // удаляем старые данные
+        delete[] adata;
+
+        // присваиваем новые
+        adata = newData;
+        asize = a.asize;
+    }
     return *this;
 }
 
 Array::~Array()
 {
-    delete[] adata;
+	if (adata != nullptr) {
+		delete[] adata;
+	}
 }
 
 Data Array::get(size_t index) const
 {
-    return adata[index];
+    if ((index >= 0) && (index < asize)) {
+        return adata[index];
+    }
+    else {
+        return -1;
+    }
 }
 
 void Array::set(size_t index, Data value)
 {
-    adata[index] = value;
+    if ((index >= 0) && (index < asize)) {
+        adata[index] = value;
+    }
 }
 
 size_t Array::size() const
