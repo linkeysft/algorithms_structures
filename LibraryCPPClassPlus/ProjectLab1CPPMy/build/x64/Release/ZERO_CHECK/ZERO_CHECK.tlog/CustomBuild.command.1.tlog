@@ -1,0 +1,10 @@
+^C:\LINKEY\LIBRARYCPPCLASSPLUS\PROJECTLAB1CPPMY\BUILD\CMAKEFILES\B2097F8206E421E0E2F2AF26C55EB3D3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Linkey/LibraryCPPClassPlus/ProjectLab1CPPMy -BC:/Linkey/LibraryCPPClassPlus/ProjectLab1CPPMy/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Linkey/LibraryCPPClassPlus/ProjectLab1CPPMy/build/lab1cpp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

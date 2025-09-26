@@ -1,0 +1,10 @@
+^C:\LINKEY\LIBRARYCPPCLASSPLUS\PROJECTLAB1CPPMY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Linkey/LibraryCPPClassPlus/ProjectLab1CPPMy -BC:/Linkey/LibraryCPPClassPlus/ProjectLab1CPPMy/build --check-stamp-file C:/Linkey/LibraryCPPClassPlus/ProjectLab1CPPMy/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Linkey\LibraryCPPClassPlus\array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Linkey\LibraryCPPClassPlus\ProjectLab1CPPMy\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2BF9179E-1035-30CE-BA96-1A811D044E36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
